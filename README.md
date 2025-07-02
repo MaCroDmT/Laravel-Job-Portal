@@ -1,8 +1,7 @@
 ## Laravel-Job-Portal
 [![Laravel](https://img.shields.io/badge/Laravel-9.x-orange)](https://laravel.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/YourUsername/laravel-job-portal.svg)](https://github.com/YourUsername/laravel-job-portal/stargazers)
-[![Issues](https://img.shields.io/github/issues/YourUsername/laravel-job-portal.svg)](https://github.com/YourUsername/laravel-job-portal/issues)
+
 
 ## A simple Laravel-based Job Portal with admin panel for adding, editing, deleting jobs, and a public view with search and filters. Designed by Prottoy Saha (AIUB) with clean structure, reusable layouts, and external CSS. Easy to maintain and extend.
 
