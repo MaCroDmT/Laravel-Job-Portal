@@ -1,0 +1,286 @@
+/* ====== General Layout ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* ====== Links & Buttons ====== */
+a {
+    color: #3490dc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button,
+input[type="submit"] {
+    background-color: #3490dc;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #2779bd;
+}
+
+/* ====== Form Styling ====== */
+form {
+    background: white;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+    margin-bottom: 40px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+    font-family: inherit;
+}
+
+form textarea {
+    min-height: 100px;
+}
+
+/* ====== Table Styling ====== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+}
+
+table thead {
+    background-color: #3490dc;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f1f9ff;
+}
+
+/* ====== Action Buttons in Table ====== */
+.action-links a,
+.action-links form button {
+    margin-right: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #3490dc;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.action-links form button {
+    color: #e3342f;
+}
+
+.action-links a:hover {
+    text-decoration: underline;
+}
+
+.action-links form button:hover {
+    text-decoration: underline;
+}
+
+/* === Create Job Form Styles === */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div[style="color:red;"] {
+    max-width: 600px;
+    margin: 10px auto;
+    background: #ffe0e0;
+    padding: 10px;
+    border: 1px solid #e60000;
+    border-radius: 4px;
+}
+
+/* Edit Jobs er CSS */
+
+/* Edit Job Page Styles */
+
+.job-form {
+    width: 400px;
+    margin: 20px 0;
+}
+
+.job-form input[type="text"],
+.job-form input[type="number"],
+.job-form input[type="date"],
+.job-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.job-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.job-form button:hover {
+    background-color: #0056b3;
+}
+
+.error-messages {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* logout er CSS*/
+
+.logout-link {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font: inherit; /* make it inherit font from parent */
+}
+
+/*Profile info CSS files*/
+
+.profile-info {
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: #f0f8ff;
+    border: 2px solid #007acc;
+    border-radius: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #003366;
+    max-width: 450px;
+}
+
+.profile-info strong {
+    font-size: 20px;
+    color: #004080;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.contact-list li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.contact-list a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
