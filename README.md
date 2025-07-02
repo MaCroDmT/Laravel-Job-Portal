@@ -47,6 +47,8 @@ Includes admin panel, public job listings, search/filter, and authentication.
 ---
 
 ## 📂 Project Structure
+
+```text
 job-portal/
 ├── app/
 │   └── Http/
@@ -55,8 +57,18 @@ job-portal/
 │           ├── PublicJobController.php
 │           └── Auth/
 │               └── LoginController.php
+|        └── Middleware/
+|             ├──Authenticate.php
+|             ├──EncryptCookies.php
+|             ├──PreventRequestsDuringMaintenance.php
+|             ├──RedirectIfAuthenticated.php
+|             ├──TrimStrings.php
+|             ├──TrustHosts.php
+|             ├──TrustProxies.php
+|             ├──VerifyCsrfToken.php
 │   └── Models/
 │       └── Job.php
+|       └── User.php
 │
 ├── resources/
 │   ├── views/
@@ -81,6 +93,7 @@ job-portal/
 ├── public/
 │   ├── css/
 │   │   └── style.css
+|   |   └──admin-jobs.css
 │   ├── index.php
 │
 ├── routes/
@@ -95,6 +108,7 @@ job-portal/
 ├── README.md
 ├── composer.json
 └── artisan
+
 
 ---
 
