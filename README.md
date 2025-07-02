@@ -17,8 +17,8 @@ Includes admin panel, public job listings, search/filter, and authentication.
 - AIUB  
 - 📧 prottoys28@gmail.com  
 - 📞 +8801745547578  
-- - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prottoy-saha-736097357/)  
-- [![Portfolio](https://img.shields.io/badge/Portfolio-Website-green?logo=google-chrome&logoColor=white)](https://sites.google.com/view/prottoy21)  
+-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prottoy-saha-736097357/)  
+- [![Portfolio](https://img.shields.io/badge/Portfolio-Google%20Sites-4285F4?logo=google&logoColor=white)](https://sites.google.com/view/prottoy21) 
 - [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=ResearchGate&logoColor=white)](https://www.researchgate.net/profile/Prottoy-Saha-3?ev=hdr_xprf)  
 - [![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)](https://github.com/MaCroDmT)
 
